@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% load static %}
+{% block content %}
+<div class="about-section">
+      <h1>About page </h1>
+
+      <p>Manali is a high-altitude Himalayan resort town in India’s northern Himachal Pradesh state. It has a reputation as a backpacking center and honeymoon destination. Set on the Beas River, it’s a gateway for skiing in the Solang Valley and trekking in Parvati Valley. It's also a jumping-off point for paragliding, rafting and mountaineering in the Pir Panjal mountains, home to 4,000m-high Rohtang Pass.</p>
+    </div>
+    <h2 style="text-align: justify;">Our Team</h2>
+
+    <div class="card" style="width: 18rem;">
+          <img src="{% static 'rajat.jpg.' %}" alt="rajat" style="width: 100%">
+      <div class="card-body">
+            <h2>RAJAT </h2>
+            <p>rajatthakur@gmail.com</p>
+            <p><button class="btn btn-success">Contact</button></p>
+
+      </div>  
+
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="{% static 'sap1.jpg.jpg.' %}" alt="rajat" style="width: 100%">
+  <div class="card-body">
+      <h2>SAPNA</h2>
+      <p>sapsharma@gmail.com</p>
+        <p><button class="btn btn-success">Contact</button></p>
+
+  </div>
+</div>
+
+
+
+    
+{% endblock %}

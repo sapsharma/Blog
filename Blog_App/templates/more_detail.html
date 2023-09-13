@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block content %}
+
+
+
+    <div class="w3-col" style="text-align: center;">
+      <!-- Blog entry -->
+      <div class="w3-card-4 w3-margin w3-white">
+    
+        <img src="{{blog.Blog_Image.url}}" alt="" width="1100" height="600">
+        <div class="w3-container">
+          <h3><b>{{blog.Blog_Title}}</b></h3>
+          <!-- <h5><span class="w3-opacity">{{blog.Blog_Date}}</span></h5> -->
+        </div>
+    
+        <div class="w3-container">
+          <p>{{blog.Blog_Desc}}</p>
+          <p>{{blog.Blog_Desc1}}</p>
+        </div>
+   
+      </div>
+    </div>
+ 
+{% endblock %}
